@@ -282,10 +282,13 @@
     z-index: 10;
   }
   .egg,
-  .glass,
   .photo {
     display: flex;
     flex-wrap: wrap-reverse;
+  }
+  .glass {
+    display: flex;
+    flex-wrap: wrap;
   }
   .egg-text h1,
   .glass-text h1 {
