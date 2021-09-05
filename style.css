@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*=============== header section =============== */
+.orange {
+  background-image: url("./guides/desktop/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.orange nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.orange nav h1 {
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.orange nav ul {
+  display: flex;
+  min-width: 30%;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+.orange nav ul li {
+  width: 5rem;
+  cursor: pointer;
+}
+.orange nav ul li:nth-child(4) {
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.orange nav ul li:nth-child(1),
+.orange nav ul li:nth-child(2),
+.orange nav ul li:nth-child(3) {
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.orange nav .orange-hamburger {
+  position: absolute;
+  right: 20px;
+  display: none;
+}
+.orange .orange-bottom .orange-creative {
+  font-size: 45px;
+  color: white;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  font-family: cursive;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.orange .orange-bottom img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* =============== eggs section =============== */
+.egg {
+  display: flex;
+}
+.egg-text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.egg-text h1 {
+  font-size: 45px;
+  margin-top: 20px;
+  color: hsl(212, 27%, 19%);
+  text-align: left;
+  font-family: "Fraunces", serif;
+}
+
+.egg-text p {
+  color: hsl(213, 9%, 39%);
+}
+.egg-img {
+  width: 50%;
+}
+.egg-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* =============== glass section =============== */
+.glass {
+  display: flex;
+  position: relative;
+  top: -4px;
+}
+.glass-img {
+  width: 50%;
+}
+.glass-text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.glass-text h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", serif;
+}
+.glass-text p {
+  color: hsl(213, 9%, 39%);
+  margin-top: -20px;
+}
+
+.glass-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* photo section */
+.photo {
+  display: flex;
+  position: relative;
+  top: -8px;
+}
+.photo-1,
+.photo-2 {
+  width: 50%;
+  position: relative;
+  margin-right: 0px;
+}
+.photo-1 img,
+.photo-2 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* testimonials section */
+.testimonial {
+  position: relative;
+  top: -12px;
+}
+.testimonial .testimonial-header {
+  text-align: center;
+  padding: 5% 0px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", serif;
+}
+.testimonial-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+}
+.testimonial-cards .card-1 {
+  width: 440px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+.testimonial-cards .card-1 p {
+  word-wrap: break-word;
+  word-break: break-all;
+  color: hsl(213, 9%, 39%);
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.testimonial-cards .card-1 img {
+  border-radius: 50%;
+}
+.testimonial-cards .card-1 h2 {
+  color: hsl(212, 27%, 19%);
+  font-size: 25px;
+  font-family: "Fraunces", serif;
+}
+.testimonial-cards .card-1 .card-1-tag {
+  color: rgb(0, 0, 0);
+}
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-gallery img {
+  width: 337px;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(168, 63%, 66%);
+}
+.footer h1 {
+  font-size: 4rem;
+  padding: 5% 0px;
+  font-family: "Barlow", sans-serif;
+  color: hsl(0, 0%, 0%);
+  font-weight: 700;
+}
+.footer-tags {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: hsl(0, 0%, 0%);
+  font-weight: 500;
+}
+.footer-tags span {
+  margin-right: 20px;
+}
+.footer-images {
+  padding: 7% 0px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer-images img {
+  cursor: pointer;
+}
+.footer-images img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .orange nav .ul {
+    display: none;
+  }
+  .orange .ul.openUl {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 3;
+  }
+  .orange nav ul li:nth-child(1),
+  .orange nav ul li:nth-child(2),
+  .orange nav ul li:nth-child(3) {
+    color: black;
+  }
+  .orange nav ul li:nth-child(4) {
+    background-color: yellow;
+  }
+  .orange nav .orange-hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .egg,
+  .glass,
+  .photo {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .egg-text h1,
+  .glass-text h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .egg-img,
+  .glass-img,
+  .photo-1,
+  .photo-2 {
+    width: 100%;
+  }
+  .photo-2 {
+    margin-top: -4px;
+  }
+  .egg-text,
+  .glass-text {
+    margin-top: -5px;
+    width: 100%;
+    height: 402px;
+  }
+  .image-gallery img {
+    width: 50%;
+  }
+  .footer span {
+    margin-right: 10px;
+  }
+  .display-nav {
+    width: 100%;
+    height: 100%;
+    background: #ffffffdb;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+  }
+  .display-nav.open {
+    display: block;
+  }
+}
